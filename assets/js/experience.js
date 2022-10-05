@@ -6,6 +6,13 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "UI/UX Designing Intern",
+    cardImage: "assets/images/experience-page/sigma.png",
+    place: "Sigma Analytics and Computing",
+    time: "(June, 2021 - September 2022)",
+    desp: "<li>Designed UI/UX of the BuyByeQ product website , App and WebApp.</li> <li> Worked on the UI/UX of other product websites of the company.</li> <li>Working on the probability of the sales of the product which customers will use.    </li>",
+  },
+  {
     title: "Machine Learning Intern",
     cardImage: "assets/images/experience-page/verzeo.jpg",
     place: "Verzeo",
@@ -70,6 +77,12 @@ const volunteershipcards = [
     description:
       "As a technical lead for the club, my responsibilities include supervising the events and all the domains.",
   },
+  {
+    title: "Graphic Designer - GirlScript Bhubaneswar",
+    cardImage: "assets/images/experience-page/girlscript.png",
+    description:
+      "Designed all the graphics and posters for the Girlscript Odisha Regional Summit .",
+  },
 
 ];
 
@@ -109,6 +122,12 @@ const mentor = [
     subtitle: "Nilachal Polytechnic",
     image: "assets/images/experience-page/bidyut.jpg",
     desp: "Awarded as Nilachal-Bidyut Prava Memorial Award for being state and college topper in 4th semester. ",
+  },
+  {
+    title: "Semi Finalists",
+    subtitle: "Smart India Hackathon 2022",
+    image: "assets/images/experience-page/sih.jpg",
+    desp: "Developed a geotagging virtual experience to visit colleges and explore the campus and other choices just by sitting at home. ",
   },
   {
     title: "State Topper",

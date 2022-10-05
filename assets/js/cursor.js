@@ -72,16 +72,16 @@ var cursor = {
         });
     },
     
-    animateDotOutline: function() {
-        var self = this;
-        
-        self._x += (self.endX - self._x) / self.delay;
-        self._y += (self.endY - self._y) / self.delay;
-        self.$outline.style.top = self._y + 'px';
-        self.$outline.style.left = self._x + 'px';
-        
-        requestAnimationFrame(this.animateDotOutline.bind(self));
-    },
+                              animateDotOutline: function() {
+                                    var self = this;
+                                    
+                                    self._x += (self.endX - self._x) / self.delay;
+                                    self._y += (self.endY - self._y) / self.delay;
+                                    self.$outline.style.top = self._y + 'px';
+                                    self.$outline.style.left = self._x + 'px';
+                                    
+                                    requestAnimationFrame(this.animateDotOutline.bind(self));
+                                },
     
     toggleCursorSize: function() {
         var self = this;
